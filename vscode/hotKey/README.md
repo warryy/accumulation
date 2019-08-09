@@ -1,0 +1,9 @@
+# 快捷键
+- `command + 2` 新建一个选项卡组
+- `C + commad + →` 将左边选项卡组中的文件移动至右边组中
+- `command + shift + k` 删除一行
+- `option + shift + ↓` 向下复制一行
+- `command + d` 向下查询相同的单词
+- `command + t` 搜索文件名
+- `option + shift + a` 块注释
+- `command + /` 行注释
