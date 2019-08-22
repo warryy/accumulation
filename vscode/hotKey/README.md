@@ -7,3 +7,6 @@
 - `command + t` 搜索文件名
 - `option + shift + a` 块注释
 - `command + /` 行注释
+- `command + k & command + 0` 收起所有的代码块
+- `command + k & command + j` 展开所有代码块
+- 
