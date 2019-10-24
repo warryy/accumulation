@@ -1,1 +1,6 @@
-- `git remote prune origin`: 删除远程不存在的本地对应分支
+- `git remote gtgig origin`: 删除远程不存在的本地对应分支
+- `git stash`: 将当前暂存区中的改动暂时保存, 返回一个干净的工作区
+- `git stash apply <id>`: 应用最新或指定的暂存
+- `git stash pop`: 应用最新的暂存区记录并删除它
+- `git stash clear`: 清空暂存区
+- `git stash drop <id>`: 删除暂存区指定的记录

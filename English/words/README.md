@@ -1,17 +1,17 @@
-| 英文                   | 中文               | 出现位置                  |
-| :--------------------- | :----------------- | :------------------------ |
-| placeholderplaceholder | 占位符占位符占位符 | placeholderplaceholder    |
-| a bounch of            | 一堆               |                           |
-| miscellany             | 杂记, 杂集         |                           |
-| glob                   | 地球, 水滴         |                           |
-| forward-slashes        | 正斜杠             |                           |
-| backward-slashes       | 反斜杠             |                           |
-| abbreviation           | 缩写               |                           |
-| superior               | 上级的             |                           |
-| singleton              | 独生子             |                           |
-| deprecate              | 弃用               | npm package has deprecate |
-| forgery                | 伪造               | CSRF                      |
-| terminology            | 术语               | internet terminologies    |
-| brevity                | 简短               |                           |
-| comma                  | 逗号               |                           |
-| equivalent             | 等价的             |                           |
+| 英文                       | 中文               | 出现位置                   |
+| :------------------------- | :----------------- | :------------------------- |
+| abcdefghigklmhopqrstuvwxyz | 占位符占位符占位符 | abcdefghigklmhopqrstuvwxyz |
+| a bounch of                | 一堆               |                            |
+| abbreviation               | 缩写               |                            |
+| backward-slashes           | 反斜杠             |                            |
+| brevity                    | 简短               |                            |
+| comma                      | 逗号               |                            |
+| deprecate                  | 弃用               | npm package has deprecate  |
+| equivalent                 | 等价的             |                            |
+| forward-slashes            | 正斜杠             |                            |
+| forgery                    | 伪造               | CSRF                       |
+| glob                       | 地球, 水滴         |                            |
+| prune                      | 修剪               |                            |
+| superior                   | 上级的             |                            |
+| singleton                  | 独生子             |                            |
+| terminology                | 术语               | internet terminologies     |
