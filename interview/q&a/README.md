@@ -1,5 +1,5 @@
 ## q&a
-1. 实现 get 函数
+- Q: 实现 get 函数
 ```js
 let obj = {
     foo: {
@@ -12,7 +12,7 @@ get(obj, 'foo.bar.name') // 输出:biz
 obj = {}
 get(obj, 'foo.bar.name ')
 ```
-答案:
+A:
 ```js
 function get(obj, path, defaultValue) { // todo
     path = path.split('.');
@@ -28,7 +28,8 @@ function get(obj, path, defaultValue) { // todo
     return res;
 }
 ```
-2. 点击 li 元素的时候输出其索引值 0,1,2
+
+- Q: 点击 li 元素的时候输出其索引值 0,1,2
 ```html
 <ul id="test">
     <li>1</li>
@@ -36,13 +37,15 @@ function get(obj, path, defaultValue) { // todo
     <li>3</li>
 </ul>
 ```
-答案:
+A:
 ```js
 ('#test').('li')获取到 li 元素, 循环添加点击事件
 ```
-3. 给出12个外形完全一样的小球, 其中只有一个质量有异常, 给你一架天平, 如何只称重三次找出质量异常的小球
 
-答案:
+- Q: 给出12个外形完全一样的小球, 其中只有一个质量有异常, 给你一架天平, 如何只称重三次找出质量异常的小球
+
+A:
+```
    1. 12个小球分为三组: a1 ~ a4, b1 ~ b4, c1 ~ c4
    2. a 组放在天平左边, b 组放在右边(1次)
       1. a = b, 则异常小球在 c 组. c 组四个小球随机取出两个 ef, 放在天平两端(2次)
@@ -67,3 +70,14 @@ function get(obj, path, defaultValue) { // todo
       2. 2.2.1, 一次和标准球的称重.
       3. 2.2.2, a1 和 a2 对比, 会得出结论.
       4. 2.2.3, b1 和 b2 对比, 会得出结论.
+```
+- Q: 代码结果
+```js
+localStorage.setItem('test', false)
+console.log(localStorage.test || 'haha')
+```
+A: 
+```
+false
+```
+- Q: 
