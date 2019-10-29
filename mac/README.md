@@ -1,2 +1,2 @@
 # mac
-[快捷键](./hotKey/README.md)
+- [快捷键](./hotKey/README.md)
