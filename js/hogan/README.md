@@ -1,4 +1,8 @@
 ## hogan
+- `{{name}}`
+  变量名
+- `{{{dom}}}`
+  dom 数据
 - `{{#list}}{{name}}{{/list}}`
   循环对象数组
 - `{{#list}}{{.}}{{/list}}`
@@ -9,7 +13,3 @@
   boolean 值判断 true 展示
 - `{{^boolean}}{{/boolean}}`
   boolean 值判断 false 展示
-- `{{name}}`
-  变量名
-- `{{{dom}}}`
-  dom 数据

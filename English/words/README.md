@@ -4,6 +4,7 @@
 | a bounch of                | 一堆               |                            |
 | abbreviation               | 缩写               |                            |
 | backward-slashes           | 反斜杠             |                            |
+| brace                      | 大括号             |                            |
 | brevity                    | 简短               |                            |
 | comma                      | 逗号               |                            |
 | deprecate                  | 弃用               | npm package has deprecate  |

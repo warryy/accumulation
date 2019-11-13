@@ -4,3 +4,6 @@
 - [css](./css/README.md)
 - [js](./js/README.md)
 - [compatibility](./compatibility/README.md)
+- [linux](./linux/README.md)
+- [codesnippet](./codesnippet/README.md)
+- [database](./database/README.md)
