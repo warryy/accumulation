@@ -6,3 +6,7 @@ dom.onclick = function (e) {
   window.event ? window.event.cancelBubble = true : e.stopPropagation();
 }
 ```
+#### ios12键盘弹起后将页面顶起, 收回后页面不复原
+```js
+
+```

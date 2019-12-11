@@ -1,6 +1,12 @@
-- `git remote gtgig origin`: 删除远程不存在的本地对应分支
+- `git remote prune origin`: 删除远程不存在的本地对应分支
 - `git stash`: 将当前暂存区中的改动暂时保存, 返回一个干净的工作区
 - `git stash apply <id>`: 应用最新或指定的暂存
 - `git stash pop`: 应用最新的暂存区记录并删除它
 - `git stash clear`: 清空暂存区
 - `git stash drop <id>`: 删除暂存区指定的记录
+- `git remote add origin https://github.com/warryy/git.git`: 本地初始化的仓库和远程仓库关联
+- `git remote rm origin`: 删除本地和远程仓库的关联
+- `git push -u origin master`: 本地的 master 和 远程仓库 master 关联起来, 并把代码提交到远程仓库
+- `git fetch`: 本地存储的远程仓库的信息更新
+- `git merge`: 合并代码
+- `git pull`: 等同于 `git fetch + git merge`
