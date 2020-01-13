@@ -9,4 +9,4 @@
 - `git push -u origin master`: 本地的 master 和 远程仓库 master 关联起来, 并把代码提交到远程仓库
 - `git fetch`: 本地存储的远程仓库的信息更新
 - `git merge`: 合并代码
-- `git pull`: 等同于 `git fetch + git merge`
+- `git pull`: 等同于 `git fetch + git merge`- [git-flow](./git-flow/README.md)
