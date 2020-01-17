@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CMD seajs</title>
+</head>
+
+<body>
+    <input class='js-x' type="text">
+    +
+    <input class='js-y' type="text">
+    =
+    <span class="js-res"></span>
+</body>
+
+<script src="js/sea-modules/sea.js"></script>
+<script>
+    /**
+     * seajs 的配置入口方法, 此段代码不能单独抽成一个文件
+     * 因为即使抽成一个单独的js文件, 文件中引用的 js 路径还是相对于 index.html 文件来写
+     * 这样有歧义, 不好
+     * 
+     * 具体为什么导致以上问题的原因待查明
+     * */
+    seajs.config({
+        base: "./js/sea-modules/",
+        alias: {
+            "jquery": "jquery.js",
+            "add": "add.js"
+        }
+    });
+    seajs.use("./js/index.js");
+</script>
+
+</html>
