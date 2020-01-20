@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>partical animation</title>
+    <style>
+        button {
+            display: block;
+            margin: 100px auto;
+            padding: 10px 15px;
+            width: 100px;
+            line-height: 30px;
+            font-size: 20px;
+            background-color: #46a0f0;
+            /* background-color: #f8f8f8; */
+            border-radius: 4px;
+            color: #fff;
+            border: none;
+            outline: none;
+
+            position: relative;
+        }
+
+        button::before {
+            display: block;
+            content: '';
+            /* border: 1px solid #ccc; */
+            border-radius: 50%;
+            pointer-events: none;
+            background-repeat: no-repeat;
+            background-image: radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%),
+                radial-gradient(circle, #46a0f0 0, #46a0f0 20%, transparent 20%);
+
+            background-position: 0% 20%,
+                10% 10%,
+                20% 5%,
+                30% 0%,
+                40% -10%,
+
+                50% -10%,
+                60% -15%,
+                70% -10%,
+                85% 0%,
+                95% 10%,
+                /* 左边 */
+                0% 80%,
+                -10% 70%,
+                -20% 60%,
+                -10% 50%,
+                0% 40%,
+                /* 右边 */
+                100% 60%,
+                110% 70%,
+                120% 60%,
+                110% 50%,
+                100% 40%,
+                /* 下边 */
+                0% 100%,
+                10% 110%,
+                20% 115%,
+                30% 120%,
+                40% 130%,
+
+                50% 130%,
+                60% 120%,
+                70% 115%,
+                80% 110%,
+                99% 100%;
+            background-size: 0% 0%;
+            transition: 0.5s background-position ease-out, 0.5s background-size ease-in-out;
+
+            position: absolute;
+            top: -40%;
+            right: -40%;
+            bottom: -40%;
+            left: -40%;
+            z-index: -1;
+        }
+
+        button:active::before {
+            transition: 0s;
+            background-size: 40% 40%,
+                20% 20%,
+                35% 35%,
+                30% 30%,
+                20% 20%,
+
+                40% 40%,
+                25% 25%,
+                25% 25%,
+                33% 33%,
+                28% 28%,
+
+                40% 40%,
+                25% 25%,
+                25% 25%,
+                33% 33%,
+                28% 28%,
+
+                40% 40%,
+                25% 25%,
+                25% 25%,
+                33% 33%,
+                28% 28%,
+
+                40% 40%,
+                25% 25%,
+                25% 25%,
+                33% 33%,
+                28% 28%,
+
+                40% 40%,
+                25% 25%,
+                25% 25%,
+                33% 33%,
+                28% 28%;
+
+            background-position: 18% 20%,
+                20% 30%,
+                30% 20%,
+                40% 20%,
+                50% 30%,
+
+                60% 20%,
+                70% 20%,
+                80% 20%,
+                65% 30%,
+                75% 40%,
+                /* 左边 */
+                20% 80%,
+                30% 70%,
+                20% 60%,
+                30% 50%,
+                25% 40%,
+                /* 右边 */
+                80% 80%,
+                80% 70%,
+                80% 60%,
+                80% 50%,
+                75% 40%,
+                /* 下边 */
+                30% 80%,
+                40% 80%,
+                45% 80%,
+                50% 80%,
+                55% 68%,
+
+                80% 78%,
+                65% 80%,
+                68% 78%,
+                70% 58%,
+                75% 78%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <button>点我</button>
+</body>
+
+</html>
