@@ -95,5 +95,5 @@ li {
 | pre          | 不合并 | 不合并       | 不转         | 无       |
 | pre-wrap     | 不合并 | 不合并       | 转           | 无       |
 | pre-line     | 不合并 | 合并         | 转           | 无       |
-| break-spaces | 不合并 | 不合并       | 转           | 无       |
+| break-spaces | 不合并 | 不合并       | 转           | 有       |
 
