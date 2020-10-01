@@ -3,7 +3,7 @@
 - 参考文献:[张鑫旭对html与body的一些研究与理解](https://www.zhangxinxu.com/wordpress/2009/09/%e5%af%b9html%e4%b8%8ebody%e7%9a%84%e4%b8%80%e4%ba%9b%e7%a0%94%e7%a9%b6%e4%b8%8e%e7%90%86%e8%a7%a3/)
 1. 遇到的问题:
     1. 设置了 html 的背景色 a, body 背景色 b, body 中 ul 元素绝对定位, z-index 设置为 -1, 此时 ul 被 b 颜色盖住
-    2. 删除 html 标签的 a, 则 body 中的背景色不会覆盖 ul 元素
+    2. 删除 html 背景色的 a, 则 body 中的背景色不会覆盖 ul 元素
     3. 具体看代码:
 
 ##### html 有背景色情况代码及图片
@@ -97,3 +97,6 @@ li {
 | pre-line     | 不合并 | 合并         | 转           | 无       |
 | break-spaces | 不合并 | 不合并       | 转           | 有       |
 
+### `css` 变量
+定义: 带有 `--` 前缀的属性名可以视为变量, 并用 `var(--*)` 来进行访问
+备注: 子元素中可以访问到父元素中定义的变量
